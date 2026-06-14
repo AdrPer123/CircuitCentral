@@ -34,7 +34,7 @@ public class OuttakeSetup {
         // Set zero power behavior - FLOAT for flywheels!
         intakeMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
     }
-
+//test push
     public void setOuttakePow(double power) {
         outtakeMotorLeft.setPower(power);
         outtakeMotorRight.setPower(power);
