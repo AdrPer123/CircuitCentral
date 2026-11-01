@@ -1,0 +1,504 @@
+{
+  "version": "2.5.1",
+  "header": {
+    "info": "Created with Turtle Tracer",
+    "copyright": "Copyright 2026 Matthew Allen. Licensed under the Modified Apache License, Version 2.0.",
+    "link": "https://github.com/Mallen220/TurtleTracer"
+  },
+  "startPoint": {
+    "x": 9,
+    "y": 72,
+    "heading": "linear",
+    "locked": false,
+    "startDeg": 0,
+    "endDeg": 90
+  },
+  "lines": [
+    {
+      "id": "red-line-1",
+      "name": "ScorePreload",
+      "endPoint": {
+        "x": 20,
+        "y": 72,
+        "heading": "linear",
+        "startDeg": 0,
+        "endDeg": 345,
+        "locked": false
+      },
+      "controlPoints": [],
+      "color": "#E57373",
+      "eventMarkers": [
+        {
+          "id": "red-line-1-m0",
+          "name": "launcherSpinUp",
+          "type": "parametric",
+          "position": 0,
+          "lineIndex": 0
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "red-line-2",
+      "name": "ToGarden",
+      "endPoint": {
+        "x": 30,
+        "y": 11,
+        "heading": "linear",
+        "endDeg": 180,
+        "locked": false
+      },
+      "controlPoints": [
+        {
+          "x": 23.99859038193027,
+          "y": 46.50927366122518
+        }
+      ],
+      "color": "#FFB74D",
+      "eventMarkers": [
+        {
+          "id": "red-line-2-m0",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0.8,
+          "lineIndex": 1
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "red-line-3",
+      "name": "SweepGarden",
+      "endPoint": {
+        "x": 13,
+        "y": 11,
+        "heading": "constant",
+        "degrees": 180,
+        "locked": false
+      },
+      "controlPoints": [],
+      "color": "#FFF176",
+      "eventMarkers": [],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "red-line-4",
+      "name": "ScoreGarden",
+      "endPoint": {
+        "x": 22,
+        "y": 30,
+        "heading": "linear",
+        "endDeg": 52,
+        "locked": false
+      },
+      "controlPoints": [],
+      "color": "#81C784",
+      "eventMarkers": [
+        {
+          "id": "red-line-4-m0",
+          "name": "launcherSpinUp",
+          "type": "parametric",
+          "position": 0.2,
+          "lineIndex": 3
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "red-line-5",
+      "name": "ToLeftFlower",
+      "endPoint": {
+        "x": 17,
+        "y": 49,
+        "heading": "linear",
+        "endDeg": 180,
+        "locked": false
+      },
+      "controlPoints": [
+        {
+          "x": 19.047684283627433,
+          "y": 39.21189553209687
+        }
+      ],
+      "color": "#64B5F6",
+      "eventMarkers": [
+        {
+          "id": "red-line-5-m0",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0.5,
+          "lineIndex": 4
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "red-line-6",
+      "name": "ScoreLeftFlower",
+      "endPoint": {
+        "x": 22,
+        "y": 52,
+        "heading": "facingPoint",
+        "targetX": 55,
+        "targetY": 72,
+        "locked": false
+      },
+      "controlPoints": [
+        {
+          "x": 26.737065588640867,
+          "y": 51.27805920083433
+        },
+        {
+          "x": 5.427177119202481,
+          "y": 46.776579230545764
+        },
+        {
+          "x": 31.936856589417488,
+          "y": 53.12199871717855
+        }
+      ],
+      "color": "#BA68C8",
+      "eventMarkers": [
+        {
+          "id": "red-line-6-m0",
+          "name": "launcherSpinUp",
+          "type": "parametric",
+          "position": 0,
+          "lineIndex": 5
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "red-line-7",
+      "name": "ToTopFlower",
+      "endPoint": {
+        "x": 48,
+        "y": 127,
+        "heading": "linear",
+        "endDeg": 90,
+        "locked": false
+      },
+      "controlPoints": [
+        {
+          "x": 38.87955894203057,
+          "y": 106.205656122872
+        }
+      ],
+      "color": "#E57373",
+      "eventMarkers": [
+        {
+          "id": "red-line-7-m0",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0.7,
+          "lineIndex": 6
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "red-line-8",
+      "name": "ScoreTopFlower",
+      "endPoint": {
+        "x": 22,
+        "y": 112,
+        "heading": "facingPoint",
+        "targetX": 55,
+        "targetY": 72,
+        "locked": false
+      },
+      "controlPoints": [
+        {
+          "x": 35.37882217922472,
+          "y": 119.60573015967411
+        }
+      ],
+      "color": "#FFB74D",
+      "eventMarkers": [
+        {
+          "id": "red-line-8-m0",
+          "name": "launcherSpinUp",
+          "type": "parametric",
+          "position": 0,
+          "lineIndex": 7
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "red-line-9",
+      "name": "Park",
+      "endPoint": {
+        "x": 13,
+        "y": 104,
+        "heading": "linear",
+        "endDeg": 90,
+        "locked": false
+      },
+      "controlPoints": [
+        {
+          "x": 12.271792574817548,
+          "y": 109.68440498086885
+        },
+        {
+          "x": 22.998745278612926,
+          "y": 104.1584072391518
+        }
+      ],
+      "color": "#FFF176",
+      "eventMarkers": [],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    }
+  ],
+  "sequence": [
+    {
+      "kind": "path",
+      "lineId": "red-line-1"
+    },
+    {
+      "kind": "wait",
+      "id": "red-wait-1",
+      "name": "LaunchPreload",
+      "durationMs": 1200,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "red-wait-1-m",
+          "name": "launch",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "red-wait-1"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "red-line-2"
+    },
+    {
+      "kind": "path",
+      "lineId": "red-line-3"
+    },
+    {
+      "kind": "wait",
+      "id": "red-wait-3",
+      "name": "FinishGardenIntake",
+      "durationMs": 300,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "red-wait-3-m",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "red-wait-3"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "red-line-4"
+    },
+    {
+      "kind": "wait",
+      "id": "red-wait-4",
+      "name": "LaunchGarden",
+      "durationMs": 1200,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "red-wait-4-m",
+          "name": "launch",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "red-wait-4"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "red-line-5"
+    },
+    {
+      "kind": "wait",
+      "id": "red-wait-5",
+      "name": "IntakeLeftFlower",
+      "durationMs": 800,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "red-wait-5-m",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "red-wait-5"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "red-line-6"
+    },
+    {
+      "kind": "wait",
+      "id": "red-wait-6",
+      "name": "LaunchLeftFlower",
+      "durationMs": 1200,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "red-wait-6-m",
+          "name": "launch",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "red-wait-6"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "red-line-7"
+    },
+    {
+      "kind": "wait",
+      "id": "red-wait-7",
+      "name": "IntakeTopFlower",
+      "durationMs": 800,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "red-wait-7-m",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "red-wait-7"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "red-line-8"
+    },
+    {
+      "kind": "wait",
+      "id": "red-wait-8",
+      "name": "LaunchTopFlower",
+      "durationMs": 1200,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "red-wait-8-m",
+          "name": "launch",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "red-wait-8"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "red-line-9"
+    }
+  ],
+  "shapes": [
+    {
+      "id": "biobuzz-hive-red",
+      "name": "HiveRedSide",
+      "vertices": [
+        {
+          "x": 46.5,
+          "y": 92
+        },
+        {
+          "x": 46.5,
+          "y": 52
+        },
+        {
+          "x": 49,
+          "y": 52
+        },
+        {
+          "x": 49,
+          "y": 92
+        }
+      ],
+      "color": "#3f3f3f",
+      "fillColor": "#fca5a5",
+      "type": "obstacle",
+      "visible": true
+    },
+    {
+      "id": "biobuzz-hive-blue",
+      "name": "HiveBlueSide",
+      "vertices": [
+        {
+          "x": 95,
+          "y": 92
+        },
+        {
+          "x": 95,
+          "y": 52
+        },
+        {
+          "x": 97.5,
+          "y": 52
+        },
+        {
+          "x": 97.5,
+          "y": 92
+        }
+      ],
+      "color": "#3f3f3f",
+      "fillColor": "#fca5a5",
+      "type": "obstacle",
+      "visible": true
+    }
+  ],
+  "extraData": {}
+}

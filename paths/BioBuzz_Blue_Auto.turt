@@ -1,0 +1,428 @@
+{
+  "version": "2.2.1",
+  "header": {
+    "info": "Created with Turtle Tracer",
+    "copyright": "Copyright 2026 Matthew Allen. Licensed under the Modified Apache License, Version 2.0.",
+    "link": "https://github.com/Mallen220/TurtleTracer"
+  },
+  "startPoint": {
+    "x": 135,
+    "y": 72,
+    "heading": "linear",
+    "locked": false,
+    "startDeg": 0,
+    "endDeg": 0
+  },
+  "lines": [
+    {
+      "id": "blue-line-1",
+      "name": "ScorePreload",
+      "endPoint": {
+        "x": 124,
+        "y": 72,
+        "heading": "constant",
+        "degrees": 0,
+        "locked": false
+      },
+      "controlPoints": [],
+      "color": "#E57373",
+      "eventMarkers": [
+        {
+          "id": "blue-line-1-m0",
+          "name": "launcherSpinUp",
+          "type": "parametric",
+          "position": 0,
+          "lineIndex": 0
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "blue-line-2",
+      "name": "ToGarden",
+      "endPoint": {
+        "x": 114,
+        "y": 133,
+        "heading": "constant",
+        "degrees": 0,
+        "locked": false
+      },
+      "controlPoints": [
+        {
+          "x": 130,
+          "y": 104,
+          "locked": false
+        }
+      ],
+      "color": "#FFB74D",
+      "eventMarkers": [
+        {
+          "id": "blue-line-2-m0",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0.8,
+          "lineIndex": 1
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "blue-line-3",
+      "name": "SweepGarden",
+      "endPoint": {
+        "x": 131,
+        "y": 133,
+        "heading": "constant",
+        "degrees": 0,
+        "locked": false
+      },
+      "controlPoints": [],
+      "color": "#FFF176",
+      "eventMarkers": [],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "blue-line-4",
+      "name": "ScoreGarden",
+      "endPoint": {
+        "x": 122,
+        "y": 114,
+        "heading": "constant",
+        "degrees": 0,
+        "locked": false
+      },
+      "controlPoints": [],
+      "color": "#81C784",
+      "eventMarkers": [
+        {
+          "id": "blue-line-4-m0",
+          "name": "launcherSpinUp",
+          "type": "parametric",
+          "position": 0.2,
+          "lineIndex": 3
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "blue-line-5",
+      "name": "ToRightFlower",
+      "endPoint": {
+        "x": 127,
+        "y": 95,
+        "heading": "constant",
+        "degrees": 0,
+        "locked": false
+      },
+      "controlPoints": [],
+      "color": "#64B5F6",
+      "eventMarkers": [
+        {
+          "id": "blue-line-5-m0",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0.3,
+          "lineIndex": 4
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "blue-line-6",
+      "name": "ToBottomFlower",
+      "endPoint": {
+        "x": 83,
+        "y": 10,
+        "heading": "constant",
+        "degrees": 0,
+        "locked": false
+      },
+      "controlPoints": [
+        {
+          "x": 128,
+          "y": 44,
+          "locked": false
+        },
+        {
+          "x": 114,
+          "y": 10,
+          "locked": false
+        }
+      ],
+      "color": "#BA68C8",
+      "eventMarkers": [
+        {
+          "id": "blue-line-6-m0",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0.7,
+          "lineIndex": 5
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "blue-line-7",
+      "name": "ScoreBottomFlower",
+      "endPoint": {
+        "x": 118,
+        "y": 32,
+        "heading": "constant",
+        "degrees": 0,
+        "locked": false
+      },
+      "controlPoints": [],
+      "color": "#E57373",
+      "eventMarkers": [
+        {
+          "id": "blue-line-7-m0",
+          "name": "launcherSpinUp",
+          "type": "parametric",
+          "position": 0,
+          "lineIndex": 6
+        }
+      ],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    },
+    {
+      "id": "blue-line-8",
+      "name": "Park",
+      "endPoint": {
+        "x": 131,
+        "y": 40,
+        "heading": "constant",
+        "degrees": 0,
+        "locked": false
+      },
+      "controlPoints": [],
+      "color": "#FFB74D",
+      "eventMarkers": [],
+      "locked": false,
+      "waitBeforeMs": 0,
+      "waitAfterMs": 0,
+      "waitBeforeName": "",
+      "waitAfterName": "",
+      "hidden": false
+    }
+  ],
+  "sequence": [
+    {
+      "kind": "path",
+      "lineId": "blue-line-1"
+    },
+    {
+      "kind": "wait",
+      "id": "blue-wait-1",
+      "name": "LaunchPreload",
+      "durationMs": 1200,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "blue-wait-1-m",
+          "name": "launch",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "blue-wait-1"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "blue-line-2"
+    },
+    {
+      "kind": "path",
+      "lineId": "blue-line-3"
+    },
+    {
+      "kind": "wait",
+      "id": "blue-wait-3",
+      "name": "FinishGardenIntake",
+      "durationMs": 300,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "blue-wait-3-m",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "blue-wait-3"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "blue-line-4"
+    },
+    {
+      "kind": "wait",
+      "id": "blue-wait-4",
+      "name": "LaunchGarden",
+      "durationMs": 1200,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "blue-wait-4-m",
+          "name": "launch",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "blue-wait-4"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "blue-line-5"
+    },
+    {
+      "kind": "wait",
+      "id": "blue-wait-5",
+      "name": "IntakeAndLaunchRightFlower",
+      "durationMs": 2000,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "blue-wait-5-m",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "blue-wait-5"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "blue-line-6"
+    },
+    {
+      "kind": "wait",
+      "id": "blue-wait-6",
+      "name": "IntakeBottomFlower",
+      "durationMs": 800,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "blue-wait-6-m",
+          "name": "intakeOn",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "blue-wait-6"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "blue-line-7"
+    },
+    {
+      "kind": "wait",
+      "id": "blue-wait-7",
+      "name": "LaunchBottomFlower",
+      "durationMs": 1200,
+      "locked": false,
+      "eventMarkers": [
+        {
+          "id": "blue-wait-7-m",
+          "name": "launch",
+          "type": "parametric",
+          "position": 0,
+          "waitId": "blue-wait-7"
+        }
+      ]
+    },
+    {
+      "kind": "path",
+      "lineId": "blue-line-8"
+    }
+  ],
+  "shapes": [
+    {
+      "id": "biobuzz-hive-red",
+      "name": "HiveRedSide",
+      "vertices": [
+        {
+          "x": 46.5,
+          "y": 92
+        },
+        {
+          "x": 46.5,
+          "y": 52
+        },
+        {
+          "x": 49,
+          "y": 52
+        },
+        {
+          "x": 49,
+          "y": 92
+        }
+      ],
+      "color": "#3f3f3f",
+      "fillColor": "#fca5a5",
+      "type": "obstacle",
+      "visible": true
+    },
+    {
+      "id": "biobuzz-hive-blue",
+      "name": "HiveBlueSide",
+      "vertices": [
+        {
+          "x": 95,
+          "y": 92
+        },
+        {
+          "x": 95,
+          "y": 52
+        },
+        {
+          "x": 97.5,
+          "y": 52
+        },
+        {
+          "x": 97.5,
+          "y": 92
+        }
+      ],
+      "color": "#3f3f3f",
+      "fillColor": "#fca5a5",
+      "type": "obstacle",
+      "visible": true
+    }
+  ],
+  "extraData": {}
+}
